@@ -1,6 +1,5 @@
-// @ts-expect-error CSS side-effect imports are handled by the bundler.
 import '@/app/ui/global.css';
-import { dm_sans } from '@/app/ui/fonts';
+import { dm_sans } from '@/app/ui/fonts';//app\ui\global.css
 
 export default function RootLayout({
   children,
