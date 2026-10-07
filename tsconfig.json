@@ -22,7 +22,7 @@
     "paths": {
       "@/*": ["./*"]
     }
-  },
+  },  
   "include": [
     "next-env.d.ts",
     "**/*.ts",
@@ -31,6 +31,6 @@
     "app/lib/placeholder-data.ts",
     "scripts/seed.js",
     ".next/dev/types/**/*.ts"
-  ],
+, "auth.config.ts"  ],
   "exclude": ["node_modules"]
 }
